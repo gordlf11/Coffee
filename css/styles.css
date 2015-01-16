@@ -1,5 +1,49 @@
-/*
 
-HalfWit coffee roaster store
 
-*/
+
+
+header {
+    width: 100%;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/0/05/A_time_for_a_cup_of_coffee.jpg");
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    font-size: 42px;
+}
+.intro{
+    width: 75%;
+    margin: 0 auto;
+
+}
+.p1,.p2 {
+    padding-top: 70px;
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    vertical-align: top;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 0;
+}
+
+.container div{
+    margin-bottom: 10px;
+    vertical-align: top;
+    height: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+}
+img {
+    float: left;
+}
+
+
